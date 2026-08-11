@@ -3,3 +3,47 @@ languageCode = "en-us"
 title = "iuaku"
 
 theme = "PaperMod"
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+
+  ShowToc = true
+  TocOpen = false
+
+[params.homeInfoParams]
+  Title = "iuaku's Notes"
+  Content = """
+A technical blog about AI Agents,
+Time Series, Quantitative Research and Engineering.
+"""
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Archive"
+url = "/archives/"
+weight = 10
+
+[[menu.main]]
+name = "Search"
+url = "/search/"
+weight = 20
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 30
