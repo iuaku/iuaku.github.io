@@ -1,4 +1,9 @@
-```markdown
+---
+title: "uv 配置清华 PyPI 镜像源"
+date: 2026-08-21
+draft: false
+---
+
 # uv 配置清华 PyPI 镜像源
 
 `uv` 默认使用官方 PyPI 源：
